@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASHION CLUB</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Nova+Cut&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style_index.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+<style>
+  .contact-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: hotpink;
+  }
+
+  .footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  color: #555;
+  font-size: 14px;
+}
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+}
+
+#accordionExample{
+  padding: 35px;
+}
+
+.accordion-button{
+  background-color: pink;
+
+}
+
+.accordion-body {
+  background-color: lavender ;
+}
+
+
+.main_text {
+  font-size: 1.2rem;
+  padding: 50px;
+  border-radius: 5px;
+}
+.main_text p{
+  color:hotpink;
+  font-family:monospace;
+}
+
+</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="index.html"><span style="color: #F01C9C;">Fashion Avenue</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+          <li class="nav-item justify-content-end">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="products_men.html">Men</a></li>
+              <li><a class="dropdown-item" href="product_women.html">Women</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="product_kid.html">Kid</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stats.html">Statstics</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="loginpage.html">Login</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+  <center>
+    <div class="contact-info">
+      <h1>
+        <p class="author">Team Titans</p>
+      </h1>
+    </div>
+    <div class="contact-info">
+      <h3>
+        <p class="author">Our team created a visually stunning and user-friendly website that caters to fashion
+          enthusiasts. The designer, developer, and content creator played a vital role in creating a seamless and
+          cohesive website that resonates with our target audience
+      </h3>
+      </p>
+    </div>
+    <br><br>
+  </center>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Santosh Ainumpudi
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/index-img/Santosh.png" alt="Image description">
+            </div>
+            <div class="col-md-8 main_text">
+              <strong>Aspiring Data Scientist.</strong><br /><br />
+              <p>Graduate student pursuing BAIS at the University of South Florida.</p><br />
+              <h4>
+                <p>Designed and styled layouts for "Home" page and am responsible for "Contact Us" Page and and
+                  integrated all the other pages</p>
+                  
+              </h4><br />
+              <a href="https://www.linkedin.com/in/santosh-ainumpudi-626704172/"
+            class="logo-name">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Sravya Dama
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/index-img/Sravya.png" alt="Image description">
+            </div>
+            <div class="col-md-8 main_text">
+              <strong>Aspiring Data Scientist.</strong><br /> <br />
+              <p>Graduate student pursuing BAIS at the University of South Florida.</p><br />
+              <h4>
+                <p>Designed and styled layouts for "Home" page and am responsible for "Contact Us" Page and and
+                  integrated all the other pages</p>
+              </h4><br />
+              <a href="https://www.linkedin.com/in/lakshmi-sravya/" class="logo-name">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Sudeshna M
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/index-img/Sudeshna.png" alt="Image description">
+            </div>
+            <div class="col-md-8 main_text">
+              <strong>Aspiring Data Scientist.</strong><br /><br />
+              <p>Graduate student pursuing BAIS at the University of South Florida.</p><br />
+              <h4>
+                <p>Designed and styled layouts for "Home" page and am responsible for "Contact Us" Page and and
+                  integrated all the other pages</p>
+              </h4><br />
+              <a href="https://www.linkedin.com/in/sudeshna-m-288aab185/" class="logo-name">LinkedIn</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Monisha Lanke
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col-md-4 ">
+              <img src="images/index-img/Monisha.png" alt="Image description">
+            </div>
+            <div class="col-md-8 main_text">
+              <strong>Aspiring Data Scientist.</strong><br /><br />
+              <p>Graduate student pursuing BAIS at the University of South Florida.</p><br />
+              <h4>
+                <p>Designed and styled layouts for "Home" page and am responsible for "Contact Us" Page and and
+                  integrated all the other pages</p>
+              </h4><br />
+              <a href="https://www.linkedin.com/in/lanka-monisha-381610188/" class="logo-name">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- <center>
+    <div class="index-grid-img-3">
+      <a href="products.html"><img src="images/index-img/Santosh.png" alt=""></a>
+      <a href="products.html"><img src="images/index-img/Sravya.png" alt="" srcset=""></a>
+      <a href="products.html"><img src="images/index-img/Sudeshna.png" alt=""></a>
+      <a href="products.html"><img src="images/index-img/Monisha.png" alt="" srcset=""></a>
+    </div>
+  </center> -->
+  <!-- <center>
+    <div class="index-grid-img-3">
+      <h2><p class="author">Santosh Ainumpudi</p></h2>
+      <h2><p class="author">Sravya Dama</p></h2>
+      <h2><p class="author">Sudeshna M</p></h2>
+      <h2><p class="author">Monisha Lanke</p></h2>
+   
+    </div>
+  </center> -->
+  <!-- <center>
+    <div class="index-grid-img-3">
+      <h3>
+        <p class="author"><a href="https://www.linkedin.com/in/santosh-ainumpudi-626704172/"
+            class="logo-name">LinkedIn</a></p>
+      </h3>
+      <h3>
+        <p class="author"><a href="https://www.linkedin.com/in/lakshmi-sravya/" class="logo-name">LinkedIn</a></p>
+      </h3>
+      <h3>
+        <p class="author"><a href="https://www.linkedin.com/in/sudeshna-m-288aab185/" class="logo-name">LinkedIn</a></p>
+      </h3>
+      <h3>
+        <p class="author"><a href="https://www.linkedin.com/in/lanka-monisha-381610188/" class="logo-name">LinkedIn</a>
+        </p>
+      </h3>
+    </div> -->
+    <!-- </center>
+     <div class="index-grid-img-3">
+      <p>Aspiring Data Scientist</p>
+      <p>Aspiring Data Engineer</p>
+      <p>Aspiring Data Scientist</p>
+      <p>Aspiring Data Engineer</p>
+    
+    </div> -->
+
+    <!-- <div class="index-grid-img-3">
+      <p>Graduate student pursuing BAIS at the University of South Florida.</p>
+      <p>Graduate student pursuing BAIS at the University of South Florida.</p>
+      <p>Graduate student pursuing BAIS at the University of South Florida.</p>
+      <p>Graduate student pursuing BAIS at the University of South Florida.</p>
+    
+    </div> -->
+
+
+    <!-- <div class="index-grid-img-3">
+      <h4>
+        <p>Designed and styled layouts for "Home" page and am responsible for "Contact Us" Page and and integrated all
+          the other pages</p>
+      </h4>
+      <h4>
+        <p>Designed and styled layouts for "Product" Page with appropriate image searches and worked on navigation bar
+          for this project.</p>
+      </h4>
+      <h4>
+        <p>Initiated the project idea, designed and styled layouts for "Categories" page and worked on navigation to
+          other pages</p>
+      </h4>
+      <h4>
+        <p>Designed and styled layouts for "Login" page and contributed for image searches and worked on navigation bar
+          for this project</p>
+      </h4>
+
+    </div> -->
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"></script>
+
+
+</body>
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">Fashion Avenue@Copyright</p>
+  </div>
+</footer>
+
+</html>
